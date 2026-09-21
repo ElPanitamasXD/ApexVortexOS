@@ -12,7 +12,7 @@
 
 ===============================================================================
 
-\[FAMILIA DE SISTEMAS OPERATIVOS NATIVOS] | \[DESARROLLADOR: wvilte / ElPanitaXD]
+\[FAMILIA DE SISTEMAS OPERATIVOS NATIVOS] | \[DESARROLLADOR: ElPanitaXD]
 
 
 
@@ -108,11 +108,11 @@ Para ejecutar ApexVortexDOS en computadoras lentas de secundaria sin usar Admin:
 
 
 
-PASO 1: Abre tu navegador y entra a la aplicacion web: https://asmitor.com
+PASO 1: Abre tu navegador y entra a la aplicacion web: [https://asmitor.com](https://onecompiler.com/assembly)
 
-PASO 2: Pega el codigo de "vortexos.asm" de esta rama y dale a "Compile".
+PASO 2: Pega el codigo de "vortexos.asm" de esta rama y dale a los 3 puntos.
 
-PASO 3: Descarga el archivo de 512 bytes purificados "vortexos.bin".
+PASO 3: Dale a dowload y cambiale de nombre a "vortexos.bin".
 
 PASO 4: Entra en otra pestaña a la aplicacion web: https://copy.sh
 
@@ -134,7 +134,7 @@ Si ejecutas localmente en una terminal clasica (cmd) desde el Escritorio:
 
 \--- \[ SYSTEM CREDITS ] --------------------------------------------------------
 
-Codigo fuente desarrollado de forma nativa por el Agente wvilte (ElPanitaXD).
+Codigo fuente desarrollado de forma nativa por ElPanitaXD.
 
 Resguardado en GitHub contra borrados en la carpeta Descargas y reseteos del CCU.
 
