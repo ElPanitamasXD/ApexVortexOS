@@ -11,61 +11,71 @@
 --- [ ECOSYSTEM MATRIX: LAS 2 EDICIONES OFICIALES ] ---------------------------
 El proyecto se resume en dos versiones estables resguardadas en la nube:
 
- [#] VortexDOS Core (Rama Antigua / Legacy)
-     * La reliquia historica. 
-     * Diseñada exclusivamente para la emulacion web de copy.sh [3.02].
-     * Interfaz minimalista de comandos instantaneos por letra clave [3.02].
+ [#] VortexDOS Core
+     * Diseñada exclusivamente para la emulacion web de copy.sh.
+     * Interfaz minimalista de comandos instantaneos por letra clave.
 
- [#] ApexVortexDOS (Esta Rama / Edicion "CMD Help")
-     * La obra maestra actual de 512 bytes exactos con titulo doble Amarillo [3.02].
-     * Compatible al 100% con emulacion web y maquinas QEMU locales [3.02].
-     * Incorpora el comando real "echo" para imprimir cadenas de texto [3.02].
-     * Juego de matematicas aleatorio con soporte de dos cifras y ENTER [3.02].
+ [#] ApexVortexDOS
+     * Compatible al 100% con emulacion web y maquinas QEMU locales.
+     * Incorpora el comando real "echo" para imprimir cadenas de texto.
+     * Juego de matematicas aleatorio con soporte de dos cifras y ENTER.
 
 --- [ HARDWARE REQUIREMENTS ] -------------------------------------------------
 [+] CPU:.......... Cualquier procesador x86 (Intel/AMD) de 32 o 64 bits.
-[+] RAM:.......... 1 Kilobyte de memoria base (Humillando los gigas de Windows) [3.02].
-[+] DRIVE:........ 1 Disquete virtual (Sector de arranque MBR de 512 bytes) [3.02].
+[+] RAM:.......... 1 Kilobyte de memoria base (Humillando los gigas de Windows).
+[+] DRIVE:........ 1 Disquete virtual (Sector de arranque MBR de 512 bytes).
 [+] PRIVILEGIOS:.. Usuario estandar (No requiere permisos de Administrador).
-[+] PALETA:....... Fondo negro, tipografia Cian y doble linea superior Amarilla [3.02].
+[+] PALETA:....... Fondo negro, tipografia Cian y doble linea superior Amarilla.
 
 --- [ OPERATOR COMMANDS (APEX EDITION) ] --------------------------------------
 Escribe el comando completo en el prompt "vtx> " y presiona ENTER para ejecutar:
 
 | COMANDO  | ACCION DEL MICROPROCESADOR
 |----------|-------------------------------------------------------------------
-| help     | Despliega la lista de comandos autorizados [3.02].
-| echo     | Escribe "echo " seguido de tu frase y la CPU la repetira limpia [3.02].
-| game     | Cortafuegos Matematico Avanzado (Suma/resta aleatoria de hasta 2 digitos) [3.02].
-| cls      | Limpia el historial sin mover el titulo doble de la parte superior [3.02].
-| rb       | Fuerza un reinicio fisico del sistema de la BIOS virtual de QEMU [3.02].
+| help     | Despliega la lista de comandos autorizados.
+| echo     | Escribe "echo " seguido de tu frase y la CPU la repetira limpia.
+| game     | Cortafuegos Matematico Avanzado (Suma/resta aleatoria de hasta 2 digitos).
+| cls      | Limpia el historial sin mover el titulo doble de la parte superior.
+| rb       | Fuerza un reinicio fisico del sistema de la BIOS virtual de QEMU.
 
 * REGLAS DEL JUEGO (MATH LOCK):
   Al ejecutar "game", la CPU lee el reloj interno para generar una ecuacion 
-  aleatoria (Ej: 5 + 5 =) [3.02].
-  1. Teclea tu respuesta (soporta numeros como el 10) [3.02].
-  2. Presiona ENTER para validar [3.02].
-  3. Resultado: OK! en Verde Fosforo o ERR en Rojo Fuego con pitido (BEEP) [3.02].
+  aleatoria (Ej: 5 + 5 =).
+  1. Teclea tu respuesta (soporta numeros como el 10).
+  2. Presiona ENTER para validar.
+  3. Resultado: OK! en Verde Fosforo o ERR en Rojo Fuego con pitido (BEEP).
 
---- [ GUIA DE EJECUCION PASO A PASO EN EL CMD ] -------------------------------
-Para compilar y correr esta version Apex en cualquier PC del mundo sin tocar 
-las variables de entorno de Windows, sigue estos pasos:
+--- [ OPCION A: MANUAL PASO A PASO ONLINE (SIN INSTALAR NADA) ] ---------------
+Ideal para las computadoras de la escuela o si no tienes permisos de administrador:
 
-PASO 1: Descarga y pon los archivos "vortexos.asm" y "vortex_apex.bin" sueltos 
-        directamente en tu Escritorio de Windows [3.02].
+PASO 1: Copia todo el codigo fuente del archivo "vortexos.asm" de este repositorio.
+PASO 2: Entra al compilador web: https://onecompiler.com
+PASO 3: Borra el codigo de ejemplo, pega tu codigo de VortexDOS y presiona el 
+        boton de los tres puntos (...) en la esquina superior del editor.
+PASO 4: Haz clic en "Download", ve a tu carpeta de Descargas y cambia el nombre 
+        del archivo descargado por "vortex_apex.bin".
+PASO 5: Abre el emulador web: https://copy.sh
+PASO 6: En la linea "Floppy disk image", haz clic en "Seleccionar archivo" y 
+        sube tu "vortex_apex.bin".
+PASO 7: Baja al fondo de la pagina de copy.sh y haz clic en "Start Emulation".
 
+--- [ OPCION B: GUIA DE EJECUCION LOCAL (CON CMD) ] ---------------------------
+Si tienes las herramientas descargadas en tu computadora local:
+
+PASO 1: Pon los archivos "vortexos.asm" y "vortex_apex.bin" sueltos directamente 
+        en tu Escritorio de Windows.
 PASO 2: Abre la terminal de comandos de Windows (cmd) y muevete al Escritorio con:
 `cd %userprofile%\Desktop`
 
-PASO 3: ¿COMO COMPILAR EL CODIGO FUENTE SI TIENES NASM?
-Escribe "C:\Users\wvilte\AppData\Local\bin\NASM\nasm.exe" -f bin vortexos.asm -o vortex_apex.bin (puedes cambiar las "" segun donde tu nasm.exe
-PASO 4: ¿COMO ARRANCAR EL SISTEMA OPERATIVO EN QEMU (MSYS2)?
-Escribe "C:\msys64\ucrt64\bin\qemu-system-x86_64.exe" -drive format=raw,file=vortex_apex.bin,if=floppy (tambien cambia las "" si te da error y ve donde esta tu qemu-system-x86_64.exe)
+PASO 3: ¿COMO COMPILAR CON NASM LOCAL?
+Escribe `"C:\Users\wvilte\AppData\Local\bin\NASM\nasm.exe" -f bin vortexos.asm -o vortex_apex.bin` (o en donde este tu nasm.exe)
+
+PASO 4: ¿COMO ARRANCAR EN QEMU (MSYS2) LOCAL?
+Escribe `"C:\msys64\ucrt64\bin\qemu-system-x86_64.exe" -drive format=raw,file=vortex_apex.bin,if=floppy` (cambia las "" en donde esta tu qemu-system-x86_64.exe)
 
 --- [ SYSTEM CREDITS ] --------------------------------------------------------
 Codigo fuente desarrollado en lenguaje ensamblador puro por ElPanitaXD.
 Resguardado en GitHub contra actualizaciones de empresa y borrados del disco.
 
-[NOTA]: Puede correr en cualquier computadora de gama baja
+[NOTA]: Cualquiera computadora icluso una computadora de 8GB puede correr
 ===============================================================================
-
