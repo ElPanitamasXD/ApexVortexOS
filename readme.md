@@ -1,144 +1,71 @@
 ===============================================================================
-
-&#x20;   \_  \_  \_\_\_\_  \_\_\_\_  \_\_\_\_  \_\_\_\_  \_  \_  \_\_\_\_\_  \_\_\_    \_\_\_  \_   \_  \_\_\_\_ 
-
-&#x20;  ( \\/ )(  \_ \\(  \_ \\(  \_\_)(  \_\_)( \\/ )(  \_  )/ \_\_)  / \_\_)( )\_( )(  \_\_)
-
-&#x20;   \\  /  )   / )   / ) \_)  ) \_)  )  (  )(\_) )\\\_\_ \\ ( (\_\_  ) \_ (  ) \_) 
-
-&#x20;    \\/  (\_\\\_)(\_\\\_)(\_\_\_\_)(\_\_\_\_)(\_/\\\_)(\_\_\_\_\_)(\_\_\_/  \\\_\_\_)(\_) (\_)(\_\_\_\_)
-
-&#x20;                                                          
-
+    _   ____   _____ __   __ __     __ ___   ____  _____  _____ __  __
+   /_\  |  _ \ | ____|\ \ / / \ \   / / _ \ |  _ \|_   _|| ____|\ \/ /
+  / _ \ | |_) ||  _|   \ V /   \ \ / / | | || |_) | | |  |  _|   \  / 
+ / ___ \|  __/ | |___   | |     \ V /| |_| ||  _ <  | |  | |___  /  \ 
+/_/   \_\_|    |_____|  |_|      \_/  \___/ |_| \_\ |_|  |_____|/_/\_\
+                                                                      
 ===============================================================================
+[RAMA DEFINITIVA: APEX EDITION] | [VERSION 10.6] | [DESARROLLADOR: ElPanitaXD]
 
-\[FAMILIA DE SISTEMAS OPERATIVOS NATIVOS] | \[DESARROLLADOR: ElPanitaXD]
+--- [ ECOSYSTEM MATRIX: LAS 2 EDICIONES OFICIALES ] ---------------------------
+El proyecto se resume en dos versiones estables resguardadas en la nube:
 
+ [#] VortexDOS Core (Rama Antigua / Legacy)
+     * La reliquia historica. 
+     * Diseñada exclusivamente para la emulacion web de copy.sh [3.02].
+     * Interfaz minimalista de comandos instantaneos por letra clave [3.02].
 
+ [#] ApexVortexDOS (Esta Rama / Edicion "CMD Help")
+     * La obra maestra actual de 512 bytes exactos con titulo doble Amarillo [3.02].
+     * Compatible al 100% con emulacion web y maquinas QEMU locales [3.02].
+     * Incorpora el comando real "echo" para imprimir cadenas de texto [3.02].
+     * Juego de matematicas aleatorio con soporte de dos cifras y ENTER [3.02].
 
-\--- \[ ECOSYSTEM MATRIX: LAS 3 EDICIONES ] --------------------------------------
+--- [ HARDWARE REQUIREMENTS ] -------------------------------------------------
+[+] CPU:.......... Cualquier procesador x86 (Intel/AMD) de 32 o 64 bits.
+[+] RAM:.......... 1 Kilobyte de memoria base (Humillando los gigas de Windows) [3.02].
+[+] DRIVE:........ 1 Disquete virtual (Sector de arranque MBR de 512 bytes) [3.02].
+[+] PRIVILEGIOS:.. Usuario estandar (No requiere permisos de Administrador).
+[+] PALETA:....... Fondo negro, tipografia Cian y doble linea superior Amarilla [3.02].
 
-El ecosistema VortexDOS se divide en tres ramas de desarrollo independientes, 
-
-todas optimizadas para hardware de gama baja y portabilidad extrema en la nube:
-
-
-
-\[1] VortexDOS Core (Rama Antigua / Legacy)
-
-&#x20;   \* La base del sistema. 
-
-&#x20;   \* Interfaz clasica minimalista de comandos por letra clave.
-
-&#x20;   \* Cortafuegos matematico de un solo digito con respuesta instantanea.
-
-
-
-\[2] VortexDOS Zenith (Rama Intermedia / BSD Style)
-
-&#x20;   \* Remasterizacion estetica de bajo nivel con prompt libre.
-
-&#x20;   \* Procesamiento de palabras completas y borrado dinamico (Backspace) \[3.02].
-
-&#x20;   \* Comando "cls" inteligente que congela los encabezados superiores \[3.02].
-
-
-
-\[3] ApexVortexDOS (Rama Definitiva / Edicion "CMD Help")
-
-&#x20;   \* La obra maestra actual de 512 bytes exactos con titulo doble amarillo \[3.02].
-
-&#x20;   \* Incorpora el comando real "echo" para replicar el simbolo de sistema \[3.02].
-
-&#x20;   \* Juego de matematicas aleatorio con soporte de dos cifras y ENTER obligatorio \[3.02].
-
-
-
-\--- \[ HARDWARE REQUIREMENTS ] -------------------------------------------------
-
-\[+] CPU:.......... Cualquier procesador x86 (Intel/AMD) de 32 o 64 bits.
-
-\[+] RAM:.......... 1 Kilobyte de memoria base (Humillando los gigas de Windows) \[3.02].
-
-\[+] DRIVE:........ 1 Disquete virtual (Sector de arranque MBR de 512 bytes) \[3.02].
-
-\[+] PRIVILEGIOS:.. Usuario estandar (No requiere permisos de Administrador en la PC).
-
-\[+] PALETA:....... Fondo negro, tipografia Cian y doble linea superior Amarilla \[3.02].
-
-
-
-\--- \[ APEX OPERATOR COMMANDS (Esta Rama) ] ------------------------------------
-
-
+--- [ OPERATOR COMMANDS (APEX EDITION) ] --------------------------------------
+Escribe el comando completo en el prompt "vtx> " y presiona ENTER para ejecutar:
 
 | COMANDO  | ACCION DEL MICROPROCESADOR
-
 |----------|-------------------------------------------------------------------
+| help     | Despliega la lista de comandos autorizados [3.02].
+| echo     | Escribe "echo " seguido de tu frase y la CPU la repetira limpia [3.02].
+| game     | Cortafuegos Matematico Avanzado (Suma/resta aleatoria de hasta 2 digitos) [3.02].
+| cls      | Limpia el historial sin mover el titulo doble de la parte superior [3.02].
+| rb       | Fuerza un reinicio fisico del sistema de la BIOS virtual de QEMU [3.02].
 
-| help     | Despliega la base de datos de comandos autorizados \[3.02].
+* REGLAS DEL JUEGO (MATH LOCK):
+  Al ejecutar "game", la CPU lee el reloj interno para generar una ecuacion 
+  aleatoria (Ej: 5 + 5 =) [3.02].
+  1. Teclea tu respuesta (soporta numeros como el 10) [3.02].
+  2. Presiona ENTER para validar [3.02].
+  3. Resultado: OK! en Verde Fosforo o ERR en Rojo Fuego con pitido (BEEP) [3.02].
 
-| echo     | Recibe una cadena de texto e imprime el mensaje exacto en pantalla \[3.02].
+--- [ GUIA DE EJECUCION PASO A PASO EN EL CMD ] -------------------------------
+Para compilar y correr esta version Apex en cualquier PC del mundo sin tocar 
+las variables de entorno de Windows, sigue estos pasos:
 
-| game     | Inicializa el juego aleatorio de sumas/restas de hasta dos cifras \[3.02].
+PASO 1: Descarga y pon los archivos "vortexos.asm" y "vortex_apex.bin" sueltos 
+        directamente en tu Escritorio de Windows [3.02].
 
-| cls      | Limpia el historial sin mover los titulos superiores \[3.02].
+PASO 2: Abre la terminal de comandos de Windows (cmd) y muevete al Escritorio con:
+`cd %userprofile%\Desktop`
 
-| rb       | Forza un salto fisico para reiniciar la BIOS de la maquina \[3.02].
+PASO 3: ¿COMO COMPILAR EL CODIGO FUENTE SI TIENES NASM?
+Escribe "C:\Users\wvilte\AppData\Local\bin\NASM\nasm.exe" -f bin vortexos.asm -o vortex_apex.bin (puedes cambiar las "" segun donde tu nasm.exe
+PASO 4: ¿COMO ARRANCAR EL SISTEMA OPERATIVO EN QEMU (MSYS2)?
+Escribe "C:\msys64\ucrt64\bin\qemu-system-x86_64.exe" -drive format=raw,file=vortex_apex.bin,if=floppy (tambien cambia las "" si te da error y ve donde esta tu qemu-system-x86_64.exe)
 
+--- [ SYSTEM CREDITS ] --------------------------------------------------------
+Codigo fuente desarrollado en lenguaje ensamblador puro por ElPanitaXD.
+Resguardado en GitHub contra actualizaciones de empresa y borrados del disco.
 
-
-\* REGLAS DEL JUEGO (MATH LOCK):
-
-&#x20; Al ejecutar "game", la CPU lee el reloj interno para generar una ecuacion 
-
-&#x20; aleatoria (Ej: 5 + 5 =).
-
-&#x20; 1. Teclea tu respuesta (soporta numeros como el 10).
-
-&#x20; 2. Presiona ENTER para validar \[3.02].
-
-&#x20; 3. Resultado: OK! en Verde Fosforo o ERR en Rojo Fuego con pitido (BEEP) \[3.02].
-
-
-
-\--- \[ MANUAL PASO A PASO: METODO INVISIBLE EN LA ESCUELA ] --------------------
-
-Para ejecutar ApexVortexDOS en computadoras lentas de secundaria sin usar Admin:
-
-
-
-PASO 1: Abre tu navegador y entra a la aplicacion web: [https://asmitor.com](https://onecompiler.com/assembly)
-
-PASO 2: Pega el codigo de "vortexos.asm" de esta rama y dale a los 3 puntos.
-
-PASO 3: Dale a dowload y cambiale de nombre a "vortexos.bin".
-
-PASO 4: Entra en otra pestaña a la aplicacion web: https://copy.sh
-
-PASO 5: En "Floppy disk image", haz clic en seleccionar archivo y sube tu .bin.
-
-PASO 6: Ve al fondo de la pagina web y haz clic en "Start Emulation".
-
-
-
-\--- \[ COMPILACION LOCAL (Para QEMU de MSYS2) ] --------------------------------
-
-Si ejecutas localmente en una terminal clasica (cmd) desde el Escritorio:
-
-`"C:\\Users\\wvilte\\AppData\\Local\\bin\\NASM\\nasm.exe" -f bin vortexos.asm -o vortexos.bin`
-
-`"c:\\msys64\\ucrt64\\bin\\qemu-system-x86\_64.exe" -drive format=raw,file=vortexos.bin,if=floppy`
-
-
-
-\--- \[ SYSTEM CREDITS ] --------------------------------------------------------
-
-Codigo fuente desarrollado de forma nativa por ElPanitaXD.
-
-Resguardado en GitHub contra borrados en la carpeta Descargas y reseteos del CCU.
-
+[NOTA]: Puede correr en cualquier computadora de gama baja
 ===============================================================================
-
-
 
