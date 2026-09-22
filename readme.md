@@ -35,7 +35,7 @@ Escribe el comando completo en el prompt "vtx> " y presiona ENTER para ejecutar:
 | help     | Despliega la lista de comandos autorizados.
 | echo     | Escribe "echo " seguido de tu frase y la CPU la repetira limpia.
 | game     | Cortafuegos Matematico Avanzado (Suma/resta aleatoria de hasta 2 digitos).
-| cls      | Limpia el historial sin mover el titulo doble de la parte superior.
+| cls      | Limpia la consola sin mover el titulo doble de la parte superior.
 | rb       | Fuerza un reinicio fisico del sistema de la BIOS virtual de QEMU.
 
 * REGLAS DEL JUEGO (MATH LOCK):
@@ -75,7 +75,6 @@ Escribe `"C:\msys64\ucrt64\bin\qemu-system-x86_64.exe" -drive format=raw,file=vo
 
 --- [ SYSTEM CREDITS ] --------------------------------------------------------
 Codigo fuente desarrollado en lenguaje ensamblador puro por ElPanitaXD.
-Resguardado en GitHub contra actualizaciones de empresa y borrados del disco.
-
+Resguardado en GitHub contra actualizaciones de windows por si se borra los archivos
 [NOTA]: Cualquiera computadora icluso una computadora de 8GB puede correr
 ===============================================================================
