@@ -6,7 +6,7 @@
 /_/   \_\_|    |_____|  |_|      \_/  \___/ |_| \_\ |_|  |_____|/_/\_\
                                                                       
 ===============================================================================
-[RAMA DEFINITIVA: APEX EDITION] | [VERSION 10.6] | [DESARROLLADOR: ElPanitaXD]
+[RAMA DEFINITIVA: VORTEXDOS] | [VERSION 10.6] | [DESARROLLADOR: ElPanitaXD]
 
 --- [ ECOSYSTEM MATRIX: LAS 2 EDICIONES OFICIALES ] ---------------------------
 El proyecto se resume en dos versiones estables resguardadas en la nube:
