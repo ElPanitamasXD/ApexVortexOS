@@ -1,24 +1,15 @@
 ===============================================================================
-    _   ____   _____ __   __ __     __ ___   ____  _____  _____ __  __
-   /_\  |  _ \ | ____|\ \ / / \ \   / / _ \ |  _ \|_   _|| ____|\ \/ /
-  / _ \ | |_) ||  _|   \ V /   \ \ / / | | || |_) | | |  |  _|   \  / 
- / ___ \|  __/ | |___   | |     \ V /| |_| ||  _ <  | |  | |___  /  \ 
-/_/   \_\_|    |_____|  |_|      \_/  \___/ |_| \_\ |_|  |_____|/_/\_\
-                                                                      
+    _    __           __             ____  ____  _____
+   | |  / /___  _____/ /____  _  __ / __ \/ __ \/ ___/
+   | | / / __ \/ ___/ __/ _ \| |/_// / / / / / /\__ \ 
+   | |/ / /_/ / /  / /_/  __/>  < / /_/ / /_/ /___/ / 
+   |___/\____/_/   \__/\___/_/|_|/_____/\____//____/                                                                                                                     
 ===============================================================================
-[RAMA DEFINITIVA: VORTEXDOS] | [VERSION 10.6] | [DESARROLLADOR: ElPanitaXD]
+[RAMA DEFINITIVA: DOS EDITION] | [VERSION 10.6] | [DESARROLLADOR: ElPanitaXD]
 
---- [ ECOSYSTEM MATRIX: LAS 2 EDICIONES OFICIALES ] ---------------------------
-El proyecto se resume en dos versiones estables resguardadas en la nube:
-
- [#] VortexDOS Core
-     * Diseñada exclusivamente para la emulacion web de copy.sh.
-     * Interfaz minimalista de comandos instantaneos por letra clave.
-
- [#] ApexVortexDOS
-     * Compatible al 100% con emulacion web y maquinas QEMU locales.
-     * Incorpora el comando real "echo" para imprimir cadenas de texto.
-     * Juego de matematicas aleatorio con soporte de dos cifras y ENTER.
+ ¿Que es VORTEXDOS?
+ VORTEX DOS es un sistema operativo independiente creado por
+ ElPanitaXD, Esta echo 100% ensamblado desde la CMD de windows
 
 --- [ HARDWARE REQUIREMENTS ] -------------------------------------------------
 [+] CPU:.......... Cualquier procesador x86 (Intel/AMD) de 32 o 64 bits.
