@@ -59,7 +59,7 @@ PASO 2: Abre la terminal de comandos de Windows (cmd) y muevete al Escritorio co
 `cd %userprofile%\Desktop`
 
 PASO 3: ¿COMO COMPILAR CON NASM LOCAL?
-Escribe `"C:\Users\wvilte\AppData\Local\bin\NASM\nasm.exe" -f bin vortexos.asm -o vortex_apex.bin` (o en donde este tu nasm.exe)
+Escribe `"C:\Users\TU_USUARIO\AppData\Local\bin\NASM\nasm.exe" -f bin vortexos.asm -o vortex_apex.bin` (o en donde este tu nasm.exe)
 
 PASO 4: ¿COMO ARRANCAR EN QEMU (MSYS2) LOCAL?
 Escribe `"C:\msys64\ucrt64\bin\qemu-system-x86_64.exe" -drive format=raw,file=vortex_apex.bin,if=floppy` (cambia las "" en donde esta tu qemu-system-x86_64.exe)
