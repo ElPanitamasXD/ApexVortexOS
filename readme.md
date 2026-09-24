@@ -1,17 +1,6 @@
 <p align="center">
-  <img src="image_DfE8Mb.png" width="120" height="120" style="image-rendering: pixelated; image-rendering: crisp-edges;">
+  <img src="pixil-frame-0.png" width="120" height="120" style="image-rendering: pixelated; image-rendering: crisp-edges;">
 </p>
-
-```text
-===============================================================================
-    _    __           __             ____  ____  _____
-
-   | |  / /___  _____/ /____  _  __ / __ \/ __ \/ ___/
-   | | / / __ \/ ___/ __/ _ \| |/_// / / / / / /\__ \ 
-   | |/ / /_/ / /  / /_/  __/>  < / /_/ / /_/ /___/ / 
-   |___/\____/_/   \__/\___/_/|_|/_____/\____//____/                                                                                                                     
-===============================================================================
-```
 
 ### 🛠️ [RAMA DEFINITIVA: DOS EDITION] | [VERSION 10.6] | [DESARROLLADOR: ElPanitaXD]
 
