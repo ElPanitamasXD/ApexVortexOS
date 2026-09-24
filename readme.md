@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="VortexLOGO.png" width="120" height="120" style="image-rendering: pixelated; image-rendering: crisp-edges;">
-</p>
+
 
 ### 🛠️ [RAMA DEFINITIVA: DOS EDITION] | [VERSION 10.6] | [DESARROLLADOR: ElPanitaXD]
 
@@ -77,4 +75,3 @@ Al ejecutar `game`, la CPU lee el reloj interno para generar una ecuación aleat
 * Código fuente desarrollado en lenguaje ensamblador puro por **ElPanitaXD**.
 * Resguardado en GitHub contra actualizaciones de Windows por si se borran los archivos `.bin` y `.asm`.
 * **[NOTA]:** Cualquier computadora, incluso una computadora de 8GB, puede correrlo perfectamente.
-===============================================================================
