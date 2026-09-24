@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="VortexLOGO.png" width="120" height="120" style="image-rendering: pixelated; image-rendering: crisp-edges;">
+</p>
 
 ### 🛠️ [RAMA DEFINITIVA: DOS EDITION] | [VERSION 10.6] | [DESARROLLADOR: ElPanitaXD]
 
