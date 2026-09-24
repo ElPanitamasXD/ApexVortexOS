@@ -11,7 +11,7 @@
 
 ### 💻 HARDWARE REQUIREMENTS
 * **`[+] CPU:`** Cualquier procesador x86 (Intel/AMD) de 32 o 64 bits.
-* **`[+] RAM:`** **1 Kilobyte de memoria base** (Humillando los gigas de Windows).
+* **`[+] RAM:`** **1 Kilobyte de memoria base**
 * **`[+] DRIVE:`** 1 Disquete virtual (Sector de arranque MBR de 512 bytes).
 * **`[+] PRIVILEGIOS:`** Usuario estándar (No requiere permisos de Administrador).
 * **`[+] PALETA:`** Fondo negro, tipografía Cian y doble línea superior Amarilla.
