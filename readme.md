@@ -44,7 +44,7 @@ Al ejecutar `game`, la CPU lee el reloj interno para generar una ecuación aleat
 * **PASO 2:** Entra al compilador web: [OneCompiler](https://onecompiler.com)
 * **PASO 3:** Borra el código de ejemplo, pega tu código de VortexDOS y presiona el botón de los tres puntos (`...`) en la esquina superior del editor.
 * **PASO 4:** Haz clic en **"Download"**, ve a tu carpeta de Descargas y cambia el nombre del archivo descargado por `vortex_apex.bin`.
-* **PASO 5:** Abre el emulador web: [v86 en copy.sh]([https://copy.sh](https://copy.sh/v86/))
+* **PASO 5:** Abre el emulador web: [v86 en copy.sh]([https://copy.sh]([https://copy.sh/v86/])
 * **PASO 6:** En la línea *"Floppy disk image"*, haz clic en **"Seleccionar archivo"** y sube tu `vortex_apex.bin`.
 * **PASO 7:** Baja al fondo de la página de copy.sh y haz clic en **"Start Emulation"**.
 
