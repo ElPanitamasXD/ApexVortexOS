@@ -1,8 +1,15 @@
 <p align="center">
-  <img src="VortexLOGO.png" width="120" height="120" style="image-rendering: pixelated; image-rendering: crisp-edges;">
+  <img src="VortexLOGO.png" width="260" height="260" style="image-rendering: pixelated; image-rendering: crisp-edges;">
 </p>
 
-### 🛠️ [RAMA DEFINITIVA: DOS EDITION] | [VERSION 10.6] | [DESARROLLADOR: ElPanitaXD]
+<h1 align="center">VORTEX DOS SHELL</h1>
+
+<p align="center">
+  <a href="https://www.nasm.us/pub/nasm/releasebuilds/"><img src="https://shields.io" alt="Assembly"></a>
+  <a href="https://www.qemu.org/download/"><img src="https://shields.io" alt="Emulator"></a>
+</p>
+
+### ╋━ [RAMA DEFINITIVA: DOS EDITION] | [VERSION 10.6] | [DESARROLLADOR: ElPanitaXD] ━╋
 
 #### ¿Qué es VORTEXDOS?
 **VORTEX DOS** es un sistema operativo independiente creado por **ElPanitaXD**. Está hecho 100% ensamblado desde la CMD de Windows.
@@ -42,7 +49,7 @@ Al ejecutar `game`, la CPU lee el reloj interno para generar una ecuación aleat
 
 * **PASO 1:** Copia todo el código fuente del archivo `vortexos.asm` de este repositorio.
 * **PASO 2:** Entra al compilador web: [OneCompiler](https://onecompiler.com/assembly)
-* **PASO 3:** Borra el código de ejemplo, pega tu código de VortexDOS y presiona el botón de los tres puntos (`...`) en la esquina superior del editor.
+* **PASO 3:** Borra el código de ejemplo, pega tu código de VortexDOS y presiona el botón de los three puntos (`...`) en la esquina superior del editor.
 * **PASO 4:** Haz clic en **"Download"**, ve a tu carpeta de Descargas y cambia el nombre del archivo descargado por `vortex_apex.bin`.
 * **PASO 5:** Abre el emulador web: [copy.sh](https://copy.sh/v86/)
 * **PASO 6:** En la línea *"Floppy disk image"*, haz clic en **"Seleccionar archivo"** y sube tu `vortex_apex.bin`.
