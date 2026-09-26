@@ -5,9 +5,11 @@
 <h1 align="center">VORTEX DOS SHELL</h1>
 
 <p align="center">
-  <a href="https://www.nasm.us/pub/nasm/releasebuilds/"><img src="https://shields.io" alt="Assembly"></a>
-  <a href="https://www.qemu.org/download/"><img src="https://shields.io" alt="Emulator"></a>
+  <a href="https://nasm.us/pub/nasm/releasebuilds/">[  DESCARGAR NASM ]</a>
+  <span> &nbsp; ─── &nbsp; </span>
+  <a href="https://www.qemu.org/download/">[  DESCARGAR QEMU ]</a>
 </p>
+
 
 ### ╋━ [RAMA DEFINITIVA: DOS EDITION] | [VERSION 10.6] | [DESARROLLADOR: ElPanitaXD] ━╋
 
